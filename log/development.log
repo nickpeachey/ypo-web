@@ -5,3 +5,8 @@ Connecting to database specified by database.yml
 
 Started GET "/assets/rails.png" for 127.0.0.1 at 2014-02-05 10:40:29 +0000
 Served asset /rails.png - 200 OK (4ms)
+Connecting to database specified by database.yml
+Initializing jasmine.yml configuration
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
