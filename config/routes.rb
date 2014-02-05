@@ -1,4 +1,8 @@
 YpoWeb::Application.routes.draw do
+  devise_for :users
+  resources :home
+  resources :admin
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -47,8 +51,8 @@ YpoWeb::Application.routes.draw do
   #   end
 
   # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  # just remember to delete public/index.html.old.
+  root :to => 'home#index'
 
   # See how all your routes lay out with "rake routes"
 
