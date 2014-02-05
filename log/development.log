@@ -10,3 +10,192 @@ Initializing jasmine.yml configuration
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+WEBrick 1.3.1
+ruby 1.9.3 (2013-06-27) [x86_64-darwin13.0.0]
+TCPServer.new(0.0.0.0, 49963)
+TCPServer.new(::, 49963)
+Rack::Handler::WEBrick is mounted on /.
+WEBrick::HTTPServer#start: pid=24233 port=49963
+accept: 127.0.0.1:49965
+close: 127.0.0.1:49965
+accept: 127.0.0.1:49966
+Rack::Handler::WEBrick is invoked.
+
+
+Started GET "/teaspoon/default?reporter=Console" for 127.0.0.1 at 2014-02-05 11:13:51 +0000
+Processing by Teaspoon::SpecController#runner as HTML
+  Parameters: {"reporter"=>"Console", "suite"=>"default"}
+Compiled teaspoon.css  (0ms)  (pid 24233)
+Compiled teaspoon-jasmine.js  (0ms)  (pid 24233)
+Compiled support/bind-poly.js  (0ms)  (pid 24233)
+Compiled jquery.js  (1ms)  (pid 24233)
+Compiled jquery_ujs.js  (0ms)  (pid 24233)
+Compiled application.js  (36ms)  (pid 24233)
+Compiled spec_helper.js  (68ms)  (pid 24233)
+  Rendered /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/teaspoon-0.7.9/app/views/teaspoon/spec/_standard.html.erb (83.3ms)
+  Rendered /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/teaspoon-0.7.9/app/views/teaspoon/spec/runner.html.erb (132.9ms)
+Completed 200 OK in 145ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+Rack::Handler::WEBrick is invoked.
+
+accept: 127.0.0.1:49968
+
+accept: 127.0.0.1:49967
+Started GET "/assets/teaspoon.css?body=1" for 127.0.0.1 at 2014-02-05 11:13:51 +0000
+accept: 127.0.0.1:49969
+Served asset /teaspoon.css - 200 OK (2ms)
+Rack::Handler::WEBrick is invoked.
+Rack::Handler::WEBrick is invoked.
+accept: 127.0.0.1:49970
+accept: 127.0.0.1:49971
+
+Rack::Handler::WEBrick is invoked.
+
+Started GET "/assets/teaspoon-jasmine.js?body=1" for 127.0.0.1 at 2014-02-05 11:13:51 +0000
+Rack::Handler::WEBrick is invoked.
+Rack::Handler::WEBrick is invoked.
+Rack::Handler::WEBrick is invoked.
+Served asset /teaspoon-jasmine.js - 200 OK (1ms)
+
+
+Started GET "/assets/support/bind-poly.js?body=1" for 127.0.0.1 at 2014-02-05 11:13:51 +0000
+Served asset /support/bind-poly.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-05 11:13:51 +0000
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/spec_helper.js?body=1" for 127.0.0.1 at 2014-02-05 11:13:51 +0000
+Served asset /spec_helper.js - 200 OK (22ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-05 11:13:51 +0000
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-05 11:13:51 +0000
+Served asset /application.js - 200 OK (3ms)
+close: 127.0.0.1:49969
+close: 127.0.0.1:49970
+close: 127.0.0.1:49971
+close: 127.0.0.1:49967
+close: 127.0.0.1:49968
+close: 127.0.0.1:49966
+Connecting to database specified by database.yml
+WEBrick 1.3.1
+ruby 1.9.3 (2013-06-27) [x86_64-darwin13.0.0]
+TCPServer.new(0.0.0.0, 49973)
+TCPServer.new(::, 49973)
+Rack::Handler::WEBrick is mounted on /.
+WEBrick::HTTPServer#start: pid=24247 port=49973
+accept: 127.0.0.1:49975
+close: 127.0.0.1:49975
+accept: 127.0.0.1:49976
+Rack::Handler::WEBrick is invoked.
+
+
+Started GET "/teaspoon/default?reporter=Console" for 127.0.0.1 at 2014-02-05 11:14:20 +0000
+Processing by Teaspoon::SpecController#runner as HTML
+  Parameters: {"reporter"=>"Console", "suite"=>"default"}
+  Rendered /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/teaspoon-0.7.9/app/views/teaspoon/spec/_standard.html.erb (8.9ms)
+  Rendered /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/teaspoon-0.7.9/app/views/teaspoon/spec/runner.html.erb (21.3ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+Rack::Handler::WEBrick is invoked.
+accept: 127.0.0.1:49977
+
+accept: 127.0.0.1:49978
+
+accept: 127.0.0.1:49979
+Started GET "/assets/teaspoon.css?body=1" for 127.0.0.1 at 2014-02-05 11:14:20 +0000
+Rack::Handler::WEBrick is invoked.
+accept: 127.0.0.1:49981
+accept: 127.0.0.1:49980
+Rack::Handler::WEBrick is invoked.
+Served asset /teaspoon.css - 200 OK (2ms)
+Rack::Handler::WEBrick is invoked.
+
+
+Rack::Handler::WEBrick is invoked.
+Rack::Handler::WEBrick is invoked.
+Started GET "/assets/teaspoon-jasmine.js?body=1" for 127.0.0.1 at 2014-02-05 11:14:20 +0000
+Rack::Handler::WEBrick is invoked.
+Served asset /teaspoon-jasmine.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-05 11:14:20 +0000
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/support/bind-poly.js?body=1" for 127.0.0.1 at 2014-02-05 11:14:20 +0000
+Served asset /support/bind-poly.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-05 11:14:20 +0000
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-05 11:14:20 +0000
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/spec_helper.js?body=1" for 127.0.0.1 at 2014-02-05 11:14:20 +0000
+Served asset /spec_helper.js - 200 OK (6ms)
+close: 127.0.0.1:49980
+close: 127.0.0.1:49978
+close: 127.0.0.1:49976
+close: 127.0.0.1:49981
+close: 127.0.0.1:49979
+close: 127.0.0.1:49977
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-02-05 11:15:40 +0000
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/teaspoon" for 127.0.0.1 at 2014-02-05 11:15:41 +0000
+Processing by Teaspoon::SpecController#suites as HTML
+Compiled teaspoon-teaspoon.js  (0ms)  (pid 24258)
+  Rendered /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/teaspoon-0.7.9/app/views/teaspoon/spec/suites.html.erb (15.6ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/teaspoon.css?body=1" for 127.0.0.1 at 2014-02-05 11:15:41 +0000
+Served asset /teaspoon.css - 200 OK (1ms)
+
+
+Started GET "/assets/teaspoon-teaspoon.js?body=1" for 127.0.0.1 at 2014-02-05 11:15:41 +0000
+Served asset /teaspoon-teaspoon.js - 200 OK (1ms)
+
+
+Started GET "/teaspoon/default" for 127.0.0.1 at 2014-02-05 11:15:43 +0000
+Processing by Teaspoon::SpecController#runner as HTML
+  Parameters: {"suite"=>"default"}
+  Rendered /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/teaspoon-0.7.9/app/views/teaspoon/spec/_standard.html.erb (48.0ms)
+  Rendered /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/teaspoon-0.7.9/app/views/teaspoon/spec/runner.html.erb (78.6ms)
+Completed 200 OK in 80ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/teaspoon-jasmine.js?body=1" for 127.0.0.1 at 2014-02-05 11:15:43 +0000
+Served asset /teaspoon-jasmine.js - 200 OK (17ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-05 11:15:43 +0000
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-05 11:15:43 +0000
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/support/bind-poly.js?body=1" for 127.0.0.1 at 2014-02-05 11:15:43 +0000
+Served asset /support/bind-poly.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-05 11:15:43 +0000
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/spec_helper.js?body=1" for 127.0.0.1 at 2014-02-05 11:15:43 +0000
+Served asset /spec_helper.js - 200 OK (7ms)
