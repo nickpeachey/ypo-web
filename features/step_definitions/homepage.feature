@@ -6,4 +6,4 @@ Feature: The homepage
 
   Scenario: As a user I want to view the navigation
     Given I am on the homepage       |
-    And I should see "Members"
+    Then I should see "Members"
