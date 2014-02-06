@@ -226,3 +226,9 @@ And /^the following sprints/ do |sprint|
     Sprint.create!(t)
   end
 end
+
+And(/^the following menu options$/) do |options|
+  options.hashes.each do |t|
+    MenuOption.create!(t)
+  end
+end

@@ -8,7 +8,6 @@ gem 'rails', '3.2.13'
 gem 'mysql2'
 gem 'devise'
 
-
 group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'therubyracer'
